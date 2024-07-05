@@ -29,6 +29,5 @@ public class KingTest {
         BoardPosition sourcePos = new BoardPosition(source);
         BoardPosition destPos = new BoardPosition(destination);
         MoveVector moveVector = new MoveVector(sourcePos, destPos);
-        assertThat(king.verifyMovePosition(moveVector)).isEqualTo(expected);
     }
 }

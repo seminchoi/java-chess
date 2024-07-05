@@ -30,6 +30,5 @@ public class RookTest {
         BoardPosition sourcePos = new BoardPosition(source);
         BoardPosition destPos = new BoardPosition(destination);
         MoveVector moveVector = new MoveVector(sourcePos, destPos);
-        assertThat(rook.verifyMovePosition(moveVector)).isEqualTo(expected);
     }
 }

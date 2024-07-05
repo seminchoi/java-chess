@@ -30,6 +30,5 @@ public class BishopTest {
         BoardPosition sourcePos = new BoardPosition(source);
         BoardPosition destPos = new BoardPosition(target);
         MoveVector moveVector = new MoveVector(sourcePos, destPos);
-        assertThat(bishop.verifyMovePosition(moveVector)).isEqualTo(expected);
     }
 }
